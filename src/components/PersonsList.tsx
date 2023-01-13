@@ -1,8 +1,7 @@
+import { Name } from "../Types/Person.types"
+
 type PropsOfHeroice = {
-  names: {
-    first: string
-    last: string
-  }[]
+  names: Name[]
 }
 
 export const PersonsList = (props: PropsOfHeroice) => {
