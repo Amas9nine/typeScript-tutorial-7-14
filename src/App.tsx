@@ -1,21 +1,24 @@
 import './App.css';
+// import { Counter } from './useReducer/Counter';
+// import { Loggedin } from './StateHook/Loggedin';
+// import { User } from './StateHook/User';
 // import { Button } from './component2/Button';
-import { Input } from './component2/Input';
+// import { Input } from './component2/Input';
 // import { Container } from './styles/Container';
 // import { Greet } from './components/Greet';
-import { Heading } from './components/Heading';
+// import { Heading } from './components/Heading';
 // import { Oscar } from './components/Oscar';
-import { Person } from './components/Person';
+// import { Person } from './components/Person';
 // import { PersonsList } from './components/PersonsList';
 // import { Status } from './components/Status';
 
 
 function App() {
 
-  const personNames = {
-    first: "Aza",
-    last: "Usup"
-  }
+  // const personNames = {
+  //   first: "Aza",
+  //   last: "Usup"
+  // }
 
   // const personOfHeroice = [
   //   {
@@ -39,13 +42,13 @@ function App() {
     <div className="App">
       {/* 1 */}
       {/* <Greet // messagesCount={30}  */}
-        {/* name="Jony" isLoggedIn={true} /> */}
-      <Person name={personNames} />
+      {/* name="Jony" isLoggedIn={true} /> */}
+      {/* <Person name={personNames} /> */}
       {/* <PersonsList names={personOfHeroice} /> */}
       {/* 2 */}
       {/* <Status status='error' /> */}
       {/* <Heading children='PlaceHolder text' number={10} btn={() => { */}
-        {/* alert(": BTN: "); */}
+      {/* alert(": BTN: "); */}
       {/* }} /> */}
       {/* <Oscar><Heading>Oskar goes Leo-Plevradon</Heading></Oscar> */}
 
@@ -57,6 +60,13 @@ function App() {
       {/* <Input value='' handleChange={(e) => console.log(e)} /> */}
 
       {/* <Container style={{ border: "1px solid blue", padding: "1rem" }} /> */}
+
+      {/* <Loggedin /> */}
+      {/* <User /> */}
+
+      {/* <Counter /> */}
+
+      
     </div>
   );
 }
